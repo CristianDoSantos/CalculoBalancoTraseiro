@@ -1,0 +1,27 @@
+body {
+    background-image: url(../assets/caminhao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

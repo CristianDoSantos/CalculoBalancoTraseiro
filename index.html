@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Balanço Traseiro</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de balanço traseiro</h1>
+    </header>
+    <section>
+        <h1>Informe todas as medias em milimetros!</h1>
+        <div id="dados">
+            <p>Balanço Traseiro: 
+                <input type="number" name="balançoT" id="balançoT">
+            </p> 
+            <p>Entre eixo: 
+                <input type="number" name="entreE" id="entreE">
+            </p>
+            <input type="button" value="Calcular" onclick="calcular()">             
+        </div>
+        <div id="res">
+            <br>
+            Aguardando informações para realizar o cálculo...
+        </div>
+        <p id="informaçoes"></p>
+    </section>
+    <footer>
+        <p style="color: black;">Desenvolvido por .::Cristian::.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
